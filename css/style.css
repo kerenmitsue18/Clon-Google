@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/********************************************* HEADER *******************************/
+header {
+    width: 100%;
+    height: 70px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .class-nav {
+    width: 300px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav .class-nav a {
+    color: rgb(21, 21, 21);
+    margin-right: 20px;
+}
+
+nav .class-nav .menu {
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    /*Modifica el tamaño de la imagen al tamaño del contenedor*/
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+nav .class-nav .menu:hover, .class-nav img{
+    cursor: pointer;
+}
+
+nav .class-nav img{
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 35px;
+    height: 35px;
+}
+
+/************************************************ MAIN ******************************/
+a, a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+head {
+    justify-content: center;
+}
+
+
+main {
+    margin-top: 20px;
+    text-align: center;
+    height: 455px;
+}
+
+
+
+main .section_img {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+main .section_img img {
+    height: 100px;
+}
+
+main .main-input {
+    width: 530px;
+    /*Horizontal vertical*/
+    margin: 0 auto;
+}
+
+main .main-input-container {
+    /* acho, estilo , color 
+    border: 1px solid #000; */
+    border: 1px solid #dfe1e5;
+    border-radius: 20px;
+    width: 538px;
+    text-align: left;
+}
+
+main .main-input-container input {
+    font-size: 20px;
+    height: 46px;
+    width: 430px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+/* EFECTO DE SOMBRA AL PASAR EL MOUSE*/
+main .main-input-container:hover {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+main .main-input .search-icon {
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 7%;
+    background-position: center;
+}
+
+main .main-input .micro-icon {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 6%;
+}
+
+main .main-input .cam-icon {
+    background-image: url(https://i.blogs.es/5af7c0/lens_product_logo_color_720px_-2-/450_1000.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 6%;
+}
+
+main .main-buttons {
+    /*background-color: aqua; */
+    width: 530px;
+    padding: 24px 0px 0px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+main .main-buttons input {
+    font-size: 14px;
+    color: #202124;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    padding: 0 16px;
+    height: 36px;
+    text-align: center;
+    user-select: none;
+    margin-right: 25px;
+}
+
+main .main-buttons input:hover {
+    box-shadow: 0 1px 1px #20212447;
+    color: #202124;
+    border: 1px solid #dadce0;
+}
+
+
+/************************************* FOOTER *************************************/
+footer {
+    width: 100%;
+    bottom: 0;
+    color: #70757a;
+}
+
+.footer-mexico {
+    background-color: #edeeef;
+    display: flex;
+    padding: 0 55px;
+    
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+}
+
+.final-section {
+    display: flex;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+    background-color: #edeeef;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+footer .footer-section-one {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+footer .footer-section-two {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .footer-section-one li,
+.footer-section-two li {
+    padding-left: 15px;
+}
+
+footer .footer-section-one a,
+.footer-section-two a {
+
+    color: #70757a;
+}
